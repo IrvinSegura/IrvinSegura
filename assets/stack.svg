@@ -30,6 +30,7 @@
 <rect x="564" y="82" width="87" height="26" rx="13.0" fill="#38BDF8" fill-opacity=".08" stroke="#38BDF8" stroke-opacity=".45"/><text x="607.5" y="99.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">shadcn/ui</text>
 <rect x="659" y="82" width="124" height="26" rx="13.0" fill="#38BDF8" fill-opacity=".08" stroke="#38BDF8" stroke-opacity=".45"/><text x="721.0" y="99.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">TanStack Query</text>
 <rect x="791" y="82" width="80" height="26" rx="13.0" fill="#38BDF8" fill-opacity=".08" stroke="#38BDF8" stroke-opacity=".45"/><text x="831.0" y="99.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">Livewire</text>
+<rect x="879" y="82" width="80" height="26" rx="13.0" fill="#38BDF8" fill-opacity=".08" stroke="#38BDF8" stroke-opacity=".45"/><text x="919.0" y="99.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">Chart.js</text>
 <rect x="24" y="128" width="952" height="46" rx="10" fill="#111D30" stroke="#26364F"/>
 <rect x="24" y="140" width="3" height="22" rx="1.5" fill="#60A5FA"/>
 <text x="44" y="156" class="mono" font-size="11" font-weight="600" fill="#60A5FA" text-anchor="start" letter-spacing="1.2">BACKEND</text>
@@ -51,7 +52,8 @@
 <rect x="440" y="194" width="57" height="26" rx="13.0" fill="#A78BFA" fill-opacity=".08" stroke="#A78BFA" stroke-opacity=".45"/><text x="468.5" y="211.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">Redis</text>
 <rect x="505" y="194" width="72" height="26" rx="13.0" fill="#A78BFA" fill-opacity=".08" stroke="#A78BFA" stroke-opacity=".45"/><text x="541.0" y="211.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">EF Core</text>
 <rect x="585" y="194" width="132" height="26" rx="13.0" fill="#A78BFA" fill-opacity=".08" stroke="#A78BFA" stroke-opacity=".45"/><text x="651.0" y="211.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">JPA / Hibernate</text>
-<rect x="725" y="194" width="65" height="26" rx="13.0" fill="#A78BFA" fill-opacity=".08" stroke="#A78BFA" stroke-opacity=".45"/><text x="757.5" y="211.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">Flyway</text>
+<rect x="725" y="194" width="94" height="26" rx="13.0" fill="#A78BFA" fill-opacity=".08" stroke="#A78BFA" stroke-opacity=".45"/><text x="772.0" y="211.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">SQLAlchemy</text>
+<rect x="827" y="194" width="65" height="26" rx="13.0" fill="#A78BFA" fill-opacity=".08" stroke="#A78BFA" stroke-opacity=".45"/><text x="859.5" y="211.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">Flyway</text>
 <rect x="24" y="240" width="952" height="46" rx="10" fill="#111D30" stroke="#26364F"/>
 <rect x="24" y="252" width="3" height="22" rx="1.5" fill="#38BDF8"/>
 <text x="44" y="268" class="mono" font-size="11" font-weight="600" fill="#38BDF8" text-anchor="start" letter-spacing="1.2">CALIDAD</text>
@@ -60,8 +62,9 @@
 <rect x="397" y="250" width="57" height="26" rx="13.0" fill="#38BDF8" fill-opacity=".08" stroke="#38BDF8" stroke-opacity=".45"/><text x="425.5" y="267.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">xUnit</text>
 <rect x="462" y="250" width="72" height="26" rx="13.0" fill="#38BDF8" fill-opacity=".08" stroke="#38BDF8" stroke-opacity=".45"/><text x="498.0" y="267.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">PHPUnit</text>
 <rect x="542" y="250" width="65" height="26" rx="13.0" fill="#38BDF8" fill-opacity=".08" stroke="#38BDF8" stroke-opacity=".45"/><text x="574.5" y="267.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">Vitest</text>
-<rect x="615" y="250" width="124" height="26" rx="13.0" fill="#38BDF8" fill-opacity=".08" stroke="#38BDF8" stroke-opacity=".45"/><text x="677.0" y="267.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">GitHub Actions</text>
-<rect x="747" y="250" width="154" height="26" rx="13.0" fill="#38BDF8" fill-opacity=".08" stroke="#38BDF8" stroke-opacity=".45"/><text x="824.0" y="267.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">Clean Architecture</text>
+<rect x="615" y="250" width="65" height="26" rx="13.0" fill="#38BDF8" fill-opacity=".08" stroke="#38BDF8" stroke-opacity=".45"/><text x="647.5" y="267.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">pytest</text>
+<rect x="688" y="250" width="94" height="26" rx="13.0" fill="#38BDF8" fill-opacity=".08" stroke="#38BDF8" stroke-opacity=".45"/><text x="735.0" y="267.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">Playwright</text>
+<rect x="790" y="250" width="124" height="26" rx="13.0" fill="#38BDF8" fill-opacity=".08" stroke="#38BDF8" stroke-opacity=".45"/><text x="852.0" y="267.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">GitHub Actions</text>
 <rect x="24" y="296" width="952" height="46" rx="10" fill="#111D30" stroke="#26364F"/>
 <rect x="24" y="308" width="3" height="22" rx="1.5" fill="#FBBF24"/>
 <text x="44" y="324" class="mono" font-size="11" font-weight="600" fill="#FBBF24" text-anchor="start" letter-spacing="1.2">INFRA Y SEGURIDAD</text>
