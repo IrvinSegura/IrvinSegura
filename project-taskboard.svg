@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="384" viewBox="0 0 1000 384" role="img" aria-labelledby="title">
+<title id="title">TaskBoard: Kanban en tiempo real con ASP.NET Core, SignalR y React</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1220"/><stop offset="1" stop-color="#0F1C30"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38BDF8"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+<radialGradient id="glow" cx="0.9" cy="0" r="0.75"><stop offset="0" stop-color="#38BDF8" stop-opacity=".14"/><stop offset="1" stop-color="#38BDF8" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#FFFFFF" stroke-opacity=".035"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#8B9AB0"/></marker>
+</defs>
+<style>
+.sans{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+.mono{font-family:ui-monospace,SFMono-Regular,'Cascadia Mono',Consolas,Menlo,monospace}
+.flow{stroke-dasharray:4 6;animation:dash 1s linear infinite}
+.cursor{animation:blink 1.1s steps(1) infinite}
+@keyframes dash{to{stroke-dashoffset:-20}}
+@keyframes blink{50%{fill-opacity:0}}
+@media (prefers-reduced-motion:reduce){.flow,.cursor{animation:none}.pulse{display:none}}
+</style>
+<rect x=".5" y=".5" width="999" height="383" rx="16" fill="url(#bg)"/>
+<rect x=".5" y=".5" width="999" height="383" rx="16" fill="url(#grid)"/>
+<rect x=".5" y=".5" width="999" height="383" rx="16" fill="url(#glow)" stroke="#1E2B3F"/>
+<text x="40" y="52" class="mono" font-size="12" font-weight="600" fill="#38BDF8" text-anchor="start" letter-spacing="1.5">TIEMPO REAL · CLEAN ARCHITECTURE</text>
+<text x="40" y="90" class="sans" font-size="28" font-weight="700" fill="#E6EDF3" text-anchor="start">TaskBoard</text>
+<text x="40" y="122" class="sans" font-size="15" font-weight="400" fill="#8B9AB0" text-anchor="start">Kanban colaborativo con chat, notificaciones e historial de actividad: cada cambio</text>
+<text x="40" y="145" class="sans" font-size="15" font-weight="400" fill="#8B9AB0" text-anchor="start">aparece al instante en la pantalla de todo el equipo, aunque haya varias instancias.</text>
+<rect x="40" y="176" width="220" height="40" rx="10" fill="#111D30" stroke="#26364F"/>
+<circle cx="56" cy="196.0" r="4" fill="#38BDF8"/>
+<text x="70" y="201.0" class="sans" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start">Navegador 1</text>
+<text x="246" y="200.0" class="mono" font-size="11" font-weight="500" fill="#8B9AB0" text-anchor="end">React</text>
+<line x1="262" y1="196" x2="356" y2="248" stroke="#26364F" stroke-width="2"/><line x1="262" y1="196" x2="356" y2="248" class="flow" stroke="#38BDF8" stroke-opacity=".85" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<circle class="pulse" r="3.5" fill="#38BDF8"><animateMotion dur="1.8s" begin="-0.0s" repeatCount="indefinite" path="M360,248 L262,196"/></circle>
+<rect x="40" y="228" width="220" height="40" rx="10" fill="#111D30" stroke="#26364F"/>
+<circle cx="56" cy="248.0" r="4" fill="#38BDF8"/>
+<text x="70" y="253.0" class="sans" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start">Navegador 2</text>
+<text x="246" y="252.0" class="mono" font-size="11" font-weight="500" fill="#8B9AB0" text-anchor="end">React</text>
+<line x1="262" y1="248" x2="356" y2="248" stroke="#26364F" stroke-width="2"/><line x1="262" y1="248" x2="356" y2="248" class="flow" stroke="#38BDF8" stroke-opacity=".85" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<circle class="pulse" r="3.5" fill="#38BDF8"><animateMotion dur="1.8s" begin="-0.6s" repeatCount="indefinite" path="M360,248 L262,248"/></circle>
+<rect x="40" y="280" width="220" height="40" rx="10" fill="#111D30" stroke="#26364F"/>
+<circle cx="56" cy="300.0" r="4" fill="#38BDF8"/>
+<text x="70" y="305.0" class="sans" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start">Navegador 3</text>
+<text x="246" y="304.0" class="mono" font-size="11" font-weight="500" fill="#8B9AB0" text-anchor="end">React</text>
+<line x1="262" y1="300" x2="356" y2="248" stroke="#26364F" stroke-width="2"/><line x1="262" y1="300" x2="356" y2="248" class="flow" stroke="#38BDF8" stroke-opacity=".85" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<circle class="pulse" r="3.5" fill="#38BDF8"><animateMotion dur="1.8s" begin="-1.2s" repeatCount="indefinite" path="M360,248 L262,300"/></circle>
+<rect x="360" y="208" width="290" height="80" rx="10" fill="#111D30" stroke="#26364F"/>
+<rect x="360" y="220" width="3" height="56" rx="1.5" fill="#60A5FA"/>
+<text x="378" y="229" class="mono" font-size="11" font-weight="600" fill="#60A5FA" text-anchor="start" letter-spacing="1.2">SIGNALR HUB · WEBSOCKETS</text>
+<text x="378" y="251" class="sans" font-size="16" font-weight="600" fill="#E6EDF3" text-anchor="start">ASP.NET Core · .NET 10</text>
+<text x="378" y="270" class="sans" font-size="13" font-weight="400" fill="#8B9AB0" text-anchor="start">Minimal APIs · CQRS · EF Core</text>
+<rect x="750" y="192" width="210" height="52" rx="10" fill="#111D30" stroke="#26364F"/>
+<rect x="750" y="204" width="3" height="28" rx="1.5" fill="#A78BFA"/>
+<text x="768" y="213" class="mono" font-size="11" font-weight="600" fill="#A78BFA" text-anchor="start" letter-spacing="1.2">EF CORE 10</text>
+<text x="768" y="235" class="sans" font-size="16" font-weight="600" fill="#E6EDF3" text-anchor="start">PostgreSQL 17</text>
+<rect x="750" y="252" width="210" height="52" rx="10" fill="#111D30" stroke="#26364F"/>
+<rect x="750" y="264" width="3" height="28" rx="1.5" fill="#A78BFA"/>
+<text x="768" y="273" class="mono" font-size="11" font-weight="600" fill="#A78BFA" text-anchor="start" letter-spacing="1.2">BACKPLANE · CACHÉ</text>
+<text x="768" y="295" class="sans" font-size="16" font-weight="600" fill="#E6EDF3" text-anchor="start">Redis</text>
+<line x1="652" y1="232" x2="746" y2="218" stroke="#26364F" stroke-width="2"/><line x1="652" y1="232" x2="746" y2="218" class="flow" stroke="#60A5FA" stroke-opacity=".85" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="652" y1="264" x2="746" y2="278" stroke="#26364F" stroke-width="2"/><line x1="652" y1="264" x2="746" y2="278" class="flow" stroke="#60A5FA" stroke-opacity=".85" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="40" y="340" width="169" height="26" rx="13.0" fill="#FBBF24" fill-opacity=".08" stroke="#FBBF24" stroke-opacity=".45"/><text x="124.5" y="357.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">Outbox transaccional</text>
+<rect x="217" y="340" width="191" height="26" rx="13.0" fill="#FBBF24" fill-opacity=".08" stroke="#FBBF24" stroke-opacity=".45"/><text x="312.5" y="357.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">Pruebas de arquitectura</text>
+<rect x="416" y="340" width="124" height="26" rx="13.0" fill="#FBBF24" fill-opacity=".08" stroke="#FBBF24" stroke-opacity=".45"/><text x="478.0" y="357.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">Testcontainers</text>
+<rect x="548" y="340" width="176" height="26" rx="13.0" fill="#FBBF24" fill-opacity=".08" stroke="#FBBF24" stroke-opacity=".45"/><text x="636.0" y="357.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">Chat con notas de voz</text>
+<rect x="732" y="340" width="154" height="26" rx="13.0" fill="#FBBF24" fill-opacity=".08" stroke="#FBBF24" stroke-opacity=".45"/><text x="809.0" y="357.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">Arrastrar y soltar</text>
+</svg>
