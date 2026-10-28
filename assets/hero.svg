@@ -31,15 +31,15 @@
 <rect x="680" y="36" width="272" height="58" rx="10" fill="#111D30" stroke="#26364F"/>
 <rect x="680" y="48" width="3" height="34" rx="1.5" fill="#38BDF8"/>
 <text x="698" y="57" class="mono" font-size="11" font-weight="600" fill="#38BDF8" text-anchor="start" letter-spacing="1.2">CLIENTE</text>
-<text x="698" y="79" class="sans" font-size="16" font-weight="600" fill="#E6EDF3" text-anchor="start">React · TypeScript · Tailwind</text>
+<text x="698" y="79" class="sans" font-size="15" font-weight="600" fill="#E6EDF3" text-anchor="start">React · TypeScript · Tailwind</text>
 <rect x="680" y="131" width="272" height="58" rx="10" fill="#111D30" stroke="#26364F"/>
 <rect x="680" y="143" width="3" height="34" rx="1.5" fill="#60A5FA"/>
 <text x="698" y="152" class="mono" font-size="11" font-weight="600" fill="#60A5FA" text-anchor="start" letter-spacing="1.2">API</text>
-<text x="698" y="174" class="sans" font-size="16" font-weight="600" fill="#E6EDF3" text-anchor="start">Spring Boot · ASP.NET · Laravel</text>
+<text x="698" y="174" class="sans" font-size="15" font-weight="600" fill="#E6EDF3" text-anchor="start">Spring · .NET · Laravel · Flask</text>
 <rect x="680" y="226" width="272" height="58" rx="10" fill="#111D30" stroke="#26364F"/>
 <rect x="680" y="238" width="3" height="34" rx="1.5" fill="#A78BFA"/>
 <text x="698" y="247" class="mono" font-size="11" font-weight="600" fill="#A78BFA" text-anchor="start" letter-spacing="1.2">DATOS</text>
-<text x="698" y="269" class="sans" font-size="16" font-weight="600" fill="#E6EDF3" text-anchor="start">PostgreSQL · MySQL · Redis</text>
+<text x="698" y="269" class="sans" font-size="15" font-weight="600" fill="#E6EDF3" text-anchor="start">PostgreSQL · MySQL · SQLite</text>
 <line x1="816" y1="96" x2="816" y2="129" stroke="#26364F" stroke-width="2"/><line x1="816" y1="96" x2="816" y2="129" class="flow" stroke="#38BDF8" stroke-opacity=".85" stroke-width="2" marker-end="url(#arrow)"/>
 <line x1="816" y1="191" x2="816" y2="224" stroke="#26364F" stroke-width="2"/><line x1="816" y1="191" x2="816" y2="224" class="flow" stroke="#60A5FA" stroke-opacity=".85" stroke-width="2" marker-end="url(#arrow)"/>
 <circle class="pulse" r="3.5" fill="#38BDF8"><animateMotion dur="1.6s" begin="-0.0s" repeatCount="indefinite" path="M816,96 L816,129"/></circle>
