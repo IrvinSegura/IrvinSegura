@@ -11,7 +11,7 @@
 
 ## Sobre mí
 
-Soy desarrollador **full stack**. Construyo sistemas completos, del modelo de datos a la interfaz, y me importa que sigan funcionando bien cuando los usa gente real al mismo tiempo, no solo en la demo.
+Soy desarrollador **Full Stack** con 3 años de experiencia. Construyo sistemas completos, desde el modelado de datos hasta la interfaz de usuario, creando soluciones eficientes, escalables y fáciles de mantener. Me enfoco en desarrollar software funcional, optimizar procesos y resolver problemas mediante buenas prácticas de desarrollo y seguridad.
 
 **Lo que he construido:**
 
