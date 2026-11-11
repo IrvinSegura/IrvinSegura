@@ -35,6 +35,23 @@ Cada tarjeta muestra cómo está construido el proyecto por dentro.
   <a href="https://github.com/IrvinSegura/Sistema-de-Inventario-y-Facturacion_Front"><b>Web · React + TypeScript</b></a>
 </p>
 
+<details>
+<summary><b>Ver capturas del punto de venta (8)</b></summary>
+<br>
+
+| | |
+| --- | --- |
+| ![Panel con ventas, utilidad y stock bajo](https://raw.githubusercontent.com/IrvinSegura/Sistema-de-Inventario-y-Facturacion_Front/main/docs/screenshots/dashboard.png) | ![Punto de venta](https://raw.githubusercontent.com/IrvinSegura/Sistema-de-Inventario-y-Facturacion_Front/main/docs/screenshots/checkout.png) |
+| Panel | Punto de venta |
+| ![Cajas del día](https://raw.githubusercontent.com/IrvinSegura/Sistema-de-Inventario-y-Facturacion_Front/main/docs/screenshots/cash-drawers-today.png) | ![Supervisión de vendedores](https://raw.githubusercontent.com/IrvinSegura/Sistema-de-Inventario-y-Facturacion_Front/main/docs/screenshots/supervision.png) |
+| Cajas del día (gerentes) | Supervisión |
+| ![Ventas contra el periodo anterior](https://raw.githubusercontent.com/IrvinSegura/Sistema-de-Inventario-y-Facturacion_Front/main/docs/screenshots/report-sales.png) | ![Corte de caja](https://raw.githubusercontent.com/IrvinSegura/Sistema-de-Inventario-y-Facturacion_Front/main/docs/screenshots/report-cash-closing.png) |
+| Ventas contra el periodo anterior | Corte de caja |
+| ![Kardex de un producto](https://raw.githubusercontent.com/IrvinSegura/Sistema-de-Inventario-y-Facturacion_Front/main/docs/screenshots/movements.png) | ![Panel en tema oscuro](https://raw.githubusercontent.com/IrvinSegura/Sistema-de-Inventario-y-Facturacion_Front/main/docs/screenshots/dashboard-dark.png) |
+| Kardex | Tema oscuro |
+
+</details>
+
 <a href="https://github.com/IrvinSegura/BilleteraDigital-">
   <img src="assets/project-wallet.svg" width="100%" alt="Billetera Digital: cliente web en React 19 y TypeScript, API REST en Java 25 con Spring Boot 4 como monolito modular con OAuth2 y JWT RS256, base de datos PostgreSQL 17, todo en Docker; libro mayor de partida doble, transferencias idempotentes, doble factor TOTP, depósitos con Stripe, retiros por SPEI y bot de soporte" />
 </a>
@@ -44,15 +61,19 @@ Cada tarjeta muestra cómo está construido el proyecto por dentro.
 </p>
 
 <details>
-<summary><b>Ver capturas de la billetera</b></summary>
+<summary><b>Ver capturas de la billetera (8)</b></summary>
 <br>
 
 | | |
 | --- | --- |
-| ![Inicio del cliente: saldo, entradas y salidas, gráfica del saldo y actividad reciente](https://raw.githubusercontent.com/IrvinSegura/BilleteraDigitalWeb/main/docs/screenshots/customer-dashboard.png) | ![Estados de cuenta, eligiendo las fechas en un calendario](https://raw.githubusercontent.com/IrvinSegura/BilleteraDigitalWeb/main/docs/screenshots/customer-statements.png) |
-| Inicio del cliente | Estados de cuenta |
-| ![Un caso de soporte: las operaciones del cliente, lo escalado y el chat](https://raw.githubusercontent.com/IrvinSegura/BilleteraDigitalWeb/main/docs/screenshots/support-case.png) | ![Inicio de administración](https://raw.githubusercontent.com/IrvinSegura/BilleteraDigitalWeb/main/docs/screenshots/admin-home.png) |
-| Un caso de soporte | Administración |
+| ![Inicio del cliente: saldo, entradas y salidas, gráfica del saldo y actividad reciente](https://raw.githubusercontent.com/IrvinSegura/BilleteraDigitalWeb/main/docs/screenshots/customer-dashboard.png) | ![Una billetera: gráfica del saldo, movimientos y filtros](https://raw.githubusercontent.com/IrvinSegura/BilleteraDigitalWeb/main/docs/screenshots/customer-wallet.png) |
+| Inicio del cliente | Una billetera y sus movimientos |
+| ![Enviar dinero, paso de confirmación](https://raw.githubusercontent.com/IrvinSegura/BilleteraDigitalWeb/main/docs/screenshots/customer-send.png) | ![Estados de cuenta, eligiendo las fechas en un calendario](https://raw.githubusercontent.com/IrvinSegura/BilleteraDigitalWeb/main/docs/screenshots/customer-statements.png) |
+| Envío: se revisa antes de salir | Estados de cuenta |
+| ![Comprobante de un movimiento](https://raw.githubusercontent.com/IrvinSegura/BilleteraDigitalWeb/main/docs/screenshots/customer-receipt.png) | ![Un caso de soporte: las operaciones del cliente, lo escalado y el chat](https://raw.githubusercontent.com/IrvinSegura/BilleteraDigitalWeb/main/docs/screenshots/support-case.png) |
+| Comprobante para imprimir o compartir | Un caso de soporte |
+| ![Inicio de administración](https://raw.githubusercontent.com/IrvinSegura/BilleteraDigitalWeb/main/docs/screenshots/admin-home.png) | ![Libro mayor: las cuentas del sistema por moneda](https://raw.githubusercontent.com/IrvinSegura/BilleteraDigitalWeb/main/docs/screenshots/admin-ledger.png) |
+| Administración | Libro mayor |
 
 </details>
 
@@ -61,19 +82,68 @@ Cada tarjeta muestra cómo está construido el proyecto por dentro.
 </a>
 <p align="center"><a href="https://github.com/IrvinSegura/TaskBoard"><b>Ver repositorio · ASP.NET Core + React</b></a></p>
 
+<details>
+<summary><b>Ver capturas de TaskBoard (8)</b></summary>
+<br>
+
+| | |
+| --- | --- |
+| ![Tablero Kanban](https://raw.githubusercontent.com/IrvinSegura/TaskBoard/main/docs/screenshots/board.png) | ![Detalle de tarjeta con checklist, adjuntos y comentarios](https://raw.githubusercontent.com/IrvinSegura/TaskBoard/main/docs/screenshots/card-detail.png) |
+| Tablero Kanban | Detalle de tarjeta |
+| ![Mensajes: chat directo, de grupo y por tablero](https://raw.githubusercontent.com/IrvinSegura/TaskBoard/main/docs/screenshots/chat.png) | ![Inicio: resumen del día y actividad reciente](https://raw.githubusercontent.com/IrvinSegura/TaskBoard/main/docs/screenshots/dashboard.png) |
+| Mensajes | Inicio |
+| ![Calendario de fechas límite](https://raw.githubusercontent.com/IrvinSegura/TaskBoard/main/docs/screenshots/calendar.png) | ![Reportes exportables a PDF y Excel](https://raw.githubusercontent.com/IrvinSegura/TaskBoard/main/docs/screenshots/reports.png) |
+| Calendario | Reportes |
+| ![Lista del tablero, ordenable y exportable](https://raw.githubusercontent.com/IrvinSegura/TaskBoard/main/docs/screenshots/board-list.png) | ![Tablero en modo oscuro](https://raw.githubusercontent.com/IrvinSegura/TaskBoard/main/docs/screenshots/board-dark.png) |
+| Vista de lista | Modo oscuro |
+
+</details>
+
 <a href="https://github.com/IrvinSegura/IRSO-BLOG">
   <img src="assets/project-blog.svg" width="100%" alt="IRSO-BLOG: login con Google, Microsoft o Facebook hacia Laravel 13 con Jetstream, que da acceso según el rol: administrador, editor o usuario" />
 </a>
 <p align="center"><a href="https://github.com/IrvinSegura/IRSO-BLOG"><b>Ver repositorio · Laravel + Livewire</b></a></p>
+
+<details>
+<summary><b>Ver capturas del blog (8)</b></summary>
+<br>
+
+| | |
+| --- | --- |
+| ![Blog público](https://raw.githubusercontent.com/IrvinSegura/IRSO-BLOG/main/docs/screenshots/blog.png) | ![Inicio de sesión con Google, Microsoft o Facebook](https://raw.githubusercontent.com/IrvinSegura/IRSO-BLOG/main/docs/screenshots/login.png) |
+| Blog público | Inicio de sesión social |
+| ![Panel del administrador](https://raw.githubusercontent.com/IrvinSegura/IRSO-BLOG/main/docs/screenshots/admin-panel.png) | ![Estadísticas](https://raw.githubusercontent.com/IrvinSegura/IRSO-BLOG/main/docs/screenshots/admin-estadisticas.png) |
+| Panel del administrador | Estadísticas |
+| ![Crear publicación con vista previa en vivo](https://raw.githubusercontent.com/IrvinSegura/IRSO-BLOG/main/docs/screenshots/usuario-crear-publicacion.png) | ![Roles](https://raw.githubusercontent.com/IrvinSegura/IRSO-BLOG/main/docs/screenshots/admin-roles.png) |
+| Crear publicación (vista previa en vivo) | Roles |
+| ![Página 403 para un editor sin permiso](https://raw.githubusercontent.com/IrvinSegura/IRSO-BLOG/main/docs/screenshots/editor-403.png) | ![Blog en tema oscuro](https://raw.githubusercontent.com/IrvinSegura/IRSO-BLOG/main/docs/screenshots/blog-oscuro.png) |
+| Permisos validados en el servidor | Tema oscuro |
+
+</details>
 
 <a href="https://github.com/IrvinSegura/Registros-de-Creditos">
   <img src="assets/project-credits.svg" width="100%" alt="Gestión de Créditos: cliente web en JavaScript, Bootstrap y Chart.js, API REST en Python con Flask y OpenAPI, base de datos SQLite con SQLAlchemy y Alembic, servida con Waitress y con respaldos automáticos; tabla de amortización, edición segura con ETag, bloqueo por intentos, cobertura de pruebas de al menos 90 % y pruebas con pytest y Playwright" />
 </a>
 <p align="center"><a href="https://github.com/IrvinSegura/Registros-de-Creditos"><b>Ver repositorio · Python + Flask</b></a></p>
 
+<details>
+<summary><b>Ver capturas de créditos (6)</b></summary>
+<br>
+
+| | |
+| --- | --- |
+| ![Panel de la cartera](https://raw.githubusercontent.com/IrvinSegura/Registros-de-Creditos/main/docs/screenshots/dashboard.png) | ![Detalle de un crédito atrasado](https://raw.githubusercontent.com/IrvinSegura/Registros-de-Creditos/main/docs/screenshots/credit-detail.png) |
+| Panel de la cartera | Detalle de un crédito atrasado |
+| ![Listado de créditos](https://raw.githubusercontent.com/IrvinSegura/Registros-de-Creditos/main/docs/screenshots/credits.png) | ![Pestaña de pagos de un crédito](https://raw.githubusercontent.com/IrvinSegura/Registros-de-Creditos/main/docs/screenshots/payments.png) |
+| Créditos | Pagos de un crédito |
+| ![Administración de usuarios](https://raw.githubusercontent.com/IrvinSegura/Registros-de-Creditos/main/docs/screenshots/users.png) | <img src="https://raw.githubusercontent.com/IrvinSegura/Registros-de-Creditos/main/docs/screenshots/mobile.png" alt="Listado en el teléfono" width="260"> |
+| Usuarios | Móvil (tema oscuro) |
+
+</details>
+
 ## Stack
 
-<img src="assets/stack.svg" width="100%" alt="Frontend: React, TypeScript, Next.js, Tailwind CSS, shadcn/ui, TanStack Query, Livewire, Chart.js. Backend: Java 21, Spring Boot, C#, ASP.NET Core, SignalR, PHP, Laravel, Python, Flask. Datos: PostgreSQL, MySQL, SQLite, Redis, EF Core, JPA / Hibernate, SQLAlchemy, Flyway. Calidad: Testcontainers, JUnit, xUnit, PHPUnit, Vitest, pytest, Playwright, GitHub Actions. Infraestructura y seguridad: Docker, Git, JWT, OAuth 2.0, APIs REST, OpenAPI, Render, Prometheus, Grafana, Stripe" />
+<img src="assets/stack.svg" width="100%" alt="Frontend: React, TypeScript, Vite, Next.js, Tailwind CSS, shadcn/ui, TanStack Query, React Hook Form, Zod, Recharts, Chart.js, Livewire, Alpine.js, Bootstrap. Backend: Java 21 / 25, Spring Boot, Spring Security, Spring Modulith, C#, ASP.NET Core, SignalR, PHP, Laravel, Python, Flask. Datos: PostgreSQL, MySQL, SQLite, Redis, JPA / Hibernate, EF Core, SQLAlchemy, Flyway, Alembic. Calidad: Testcontainers, JUnit, ArchUnit, xUnit, NetArchTest, PHPUnit, Vitest, pytest, Playwright, GitHub Actions. Infraestructura y seguridad: Docker, Git, JWT, OAuth 2.0, APIs REST, OpenAPI, Render, Stripe. Observabilidad: Prometheus, Grafana, OpenTelemetry, Sentry, Serilog" />
 
 ## Contacto
 
