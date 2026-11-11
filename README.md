@@ -16,6 +16,7 @@ Soy desarrollador **Full Stack** con 3 años de experiencia. Construyo sistemas 
 **Lo que he construido:**
 
 - **Un punto de venta** con Spring Boot y React donde el stock nunca queda negativo, aunque dos cajeros vendan la última unidad a la vez, y un doble clic nunca cobra dos veces. Tiene 49 clases de prueba contra PostgreSQL real y se despliega solo cuando el CI pasa.
+- **Una billetera digital** con Spring Boot y React donde cada centavo pasa por un libro mayor de partida doble: depósitos con Stripe, retiros por SPEI, transferencias que un reintento nunca duplica, doble factor y un chat de soporte con bot que escala a una persona. Es un monolito modular cuyos límites verifican Spring Modulith y ArchUnit, con métricas y trazas en Prometheus y Grafana.
 -  **Un Kanban en tiempo real** con ASP.NET Core, SignalR y Clean Architecture: chat con notas de voz, notificaciones y un outbox transaccional que entrega cada evento una sola vez, aunque corran varias instancias.
 - **Un blog** con Laravel y permisos por rol que se validan en el servidor, con inicio de sesión con Google, Microsoft o Facebook.
 - **Un sistema de créditos** con Python y Flask: tabla de amortización, control de atrasos y reportes en Excel y PDF, con seguridad lista para producción (CSRF, CSP y bloqueo por intentos), más del 90 % de cobertura de pruebas y pruebas en el navegador con Playwright.
@@ -34,6 +35,27 @@ Cada tarjeta muestra cómo está construido el proyecto por dentro.
   <a href="https://github.com/IrvinSegura/Sistema-de-Inventario-y-Facturacion_Front"><b>Web · React + TypeScript</b></a>
 </p>
 
+<a href="https://github.com/IrvinSegura/BilleteraDigital-">
+  <img src="assets/project-wallet.svg" width="100%" alt="Billetera Digital: cliente web en React 19 y TypeScript, API REST en Java 25 con Spring Boot 4 como monolito modular con OAuth2 y JWT RS256, base de datos PostgreSQL 17, todo en Docker; libro mayor de partida doble, transferencias idempotentes, doble factor TOTP, depósitos con Stripe, retiros por SPEI y bot de soporte" />
+</a>
+<p align="center">
+  <a href="https://github.com/IrvinSegura/BilleteraDigital-"><b>API · Java + Spring Boot</b></a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://github.com/IrvinSegura/BilleteraDigitalWeb"><b>Web · React + TypeScript</b></a>
+</p>
+
+<details>
+<summary><b>Ver capturas de la billetera</b></summary>
+<br>
+
+| | |
+| --- | --- |
+| ![Inicio del cliente: saldo, entradas y salidas, gráfica del saldo y actividad reciente](https://raw.githubusercontent.com/IrvinSegura/BilleteraDigitalWeb/main/docs/screenshots/customer-dashboard.png) | ![Estados de cuenta, eligiendo las fechas en un calendario](https://raw.githubusercontent.com/IrvinSegura/BilleteraDigitalWeb/main/docs/screenshots/customer-statements.png) |
+| Inicio del cliente | Estados de cuenta |
+| ![Un caso de soporte: las operaciones del cliente, lo escalado y el chat](https://raw.githubusercontent.com/IrvinSegura/BilleteraDigitalWeb/main/docs/screenshots/support-case.png) | ![Inicio de administración](https://raw.githubusercontent.com/IrvinSegura/BilleteraDigitalWeb/main/docs/screenshots/admin-home.png) |
+| Un caso de soporte | Administración |
+
+</details>
+
 <a href="https://github.com/IrvinSegura/TaskBoard">
   <img src="assets/project-taskboard.svg" width="100%" alt="TaskBoard: Kanban en tiempo real con varios navegadores React conectados a un hub de SignalR en ASP.NET Core y .NET 10, con PostgreSQL y Redis como backplane; outbox transaccional, pruebas de arquitectura y Testcontainers" />
 </a>
@@ -51,7 +73,7 @@ Cada tarjeta muestra cómo está construido el proyecto por dentro.
 
 ## Stack
 
-<img src="assets/stack.svg" width="100%" alt="Frontend: React, TypeScript, Next.js, Tailwind CSS, shadcn/ui, TanStack Query, Livewire, Chart.js. Backend: Java 21, Spring Boot, C#, ASP.NET Core, SignalR, PHP, Laravel, Python, Flask. Datos: PostgreSQL, MySQL, SQLite, Redis, EF Core, JPA / Hibernate, SQLAlchemy, Flyway. Calidad: Testcontainers, JUnit, xUnit, PHPUnit, Vitest, pytest, Playwright, GitHub Actions. Infraestructura y seguridad: Docker, Git, JWT, OAuth 2.0, APIs REST, OpenAPI, Render" />
+<img src="assets/stack.svg" width="100%" alt="Frontend: React, TypeScript, Next.js, Tailwind CSS, shadcn/ui, TanStack Query, Livewire, Chart.js. Backend: Java 21, Spring Boot, C#, ASP.NET Core, SignalR, PHP, Laravel, Python, Flask. Datos: PostgreSQL, MySQL, SQLite, Redis, EF Core, JPA / Hibernate, SQLAlchemy, Flyway. Calidad: Testcontainers, JUnit, xUnit, PHPUnit, Vitest, pytest, Playwright, GitHub Actions. Infraestructura y seguridad: Docker, Git, JWT, OAuth 2.0, APIs REST, OpenAPI, Render, Prometheus, Grafana, Stripe" />
 
 ## Contacto
 
