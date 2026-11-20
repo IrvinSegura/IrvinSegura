@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title">
-<title id="title">Stack: React, TypeScript, Vite, Next.js, Tailwind CSS, shadcn/ui, TanStack Query, React Hook Form, Zod, Recharts, Chart.js, Livewire, Alpine.js, Bootstrap, Java 21 / 25, Spring Boot, Spring Security, Spring Modulith, C#, ASP.NET Core, SignalR, PHP, Laravel, Python, Flask, PostgreSQL, MySQL, SQLite, Redis, JPA / Hibernate, EF Core, SQLAlchemy, Flyway, Alembic, Testcontainers, JUnit, ArchUnit, xUnit, NetArchTest, PHPUnit, Vitest, pytest, Playwright, GitHub Actions, Docker, Git, JWT, OAuth 2.0, APIs REST, OpenAPI, Render, Stripe, Prometheus, Grafana, OpenTelemetry, Sentry, Serilog</title>
+<title id="title">Stack: React, TypeScript, Vite, Next.js, Tailwind CSS, shadcn/ui, TanStack Query, React Hook Form, Zod, Recharts, Chart.js, Livewire, Alpine.js, Bootstrap, Java 21 / 25, Spring Boot, Spring Security, Spring Modulith, Claude API, C#, ASP.NET Core, SignalR, PHP, Laravel, Python, Flask, PostgreSQL, MySQL, SQLite, Redis, JPA / Hibernate, EF Core, SQLAlchemy, Flyway, Alembic, pgvector, Testcontainers, JUnit, ArchUnit, xUnit, NetArchTest, PHPUnit, Vitest, pytest, Playwright, GitHub Actions, k6, Docker, Git, JWT, OAuth 2.0, APIs REST, OpenAPI, Render, Stripe, Caddy, Prometheus, Grafana, OpenTelemetry, Sentry, Serilog</title>
 <defs>
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1220"/><stop offset="1" stop-color="#0F1C30"/></linearGradient>
 <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38BDF8"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
@@ -51,6 +51,7 @@
 <rect x="251" y="206" width="72" height="26" rx="13.0" fill="#60A5FA" fill-opacity=".08" stroke="#60A5FA" stroke-opacity=".45"/><text x="287.0" y="223.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">Laravel</text>
 <rect x="331" y="206" width="65" height="26" rx="13.0" fill="#60A5FA" fill-opacity=".08" stroke="#60A5FA" stroke-opacity=".45"/><text x="363.5" y="223.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">Python</text>
 <rect x="404" y="206" width="58" height="26" rx="13.0" fill="#60A5FA" fill-opacity=".08" stroke="#60A5FA" stroke-opacity=".45"/><text x="433.0" y="223.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">Flask</text>
+<rect x="470" y="206" width="94" height="26" rx="13.0" fill="#60A5FA" fill-opacity=".08" stroke="#60A5FA" stroke-opacity=".45"/><text x="517.0" y="223.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">Claude API</text>
 <rect x="24" y="252" width="952" height="80" rx="10" fill="#111D30" stroke="#26364F"/>
 <rect x="24" y="264" width="3" height="56" rx="1.5" fill="#A78BFA"/>
 <text x="44" y="280" class="mono" font-size="11" font-weight="600" fill="#A78BFA" text-anchor="start" letter-spacing="1.2">DATOS</text>
@@ -63,6 +64,7 @@
 <rect x="725" y="262" width="94" height="26" rx="13.0" fill="#A78BFA" fill-opacity=".08" stroke="#A78BFA" stroke-opacity=".45"/><text x="772.0" y="279.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">SQLAlchemy</text>
 <rect x="827" y="262" width="65" height="26" rx="13.0" fill="#A78BFA" fill-opacity=".08" stroke="#A78BFA" stroke-opacity=".45"/><text x="859.5" y="279.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">Flyway</text>
 <rect x="200" y="296" width="72" height="26" rx="13.0" fill="#A78BFA" fill-opacity=".08" stroke="#A78BFA" stroke-opacity=".45"/><text x="236.0" y="313.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">Alembic</text>
+<rect x="280" y="296" width="80" height="26" rx="13.0" fill="#A78BFA" fill-opacity=".08" stroke="#A78BFA" stroke-opacity=".45"/><text x="320.0" y="313.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">pgvector</text>
 <rect x="24" y="342" width="952" height="80" rx="10" fill="#111D30" stroke="#26364F"/>
 <rect x="24" y="354" width="3" height="56" rx="1.5" fill="#38BDF8"/>
 <text x="44" y="370" class="mono" font-size="11" font-weight="600" fill="#38BDF8" text-anchor="start" letter-spacing="1.2">CALIDAD</text>
@@ -76,6 +78,7 @@
 <rect x="812" y="352" width="65" height="26" rx="13.0" fill="#38BDF8" fill-opacity=".08" stroke="#38BDF8" stroke-opacity=".45"/><text x="844.5" y="369.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">pytest</text>
 <rect x="200" y="386" width="94" height="26" rx="13.0" fill="#38BDF8" fill-opacity=".08" stroke="#38BDF8" stroke-opacity=".45"/><text x="247.0" y="403.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">Playwright</text>
 <rect x="302" y="386" width="123" height="26" rx="13.0" fill="#38BDF8" fill-opacity=".08" stroke="#38BDF8" stroke-opacity=".45"/><text x="363.5" y="403.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">GitHub Actions</text>
+<rect x="433" y="386" width="36" height="26" rx="13.0" fill="#38BDF8" fill-opacity=".08" stroke="#38BDF8" stroke-opacity=".45"/><text x="451.0" y="403.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">k6</text>
 <rect x="24" y="432" width="952" height="46" rx="10" fill="#111D30" stroke="#26364F"/>
 <rect x="24" y="444" width="3" height="22" rx="1.5" fill="#FBBF24"/>
 <text x="44" y="460" class="mono" font-size="11" font-weight="600" fill="#FBBF24" text-anchor="start" letter-spacing="1.2">INFRA Y SEGURIDAD</text>
@@ -87,6 +90,7 @@
 <rect x="565" y="442" width="72" height="26" rx="13.0" fill="#FBBF24" fill-opacity=".08" stroke="#FBBF24" stroke-opacity=".45"/><text x="601.0" y="459.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">OpenAPI</text>
 <rect x="645" y="442" width="65" height="26" rx="13.0" fill="#FBBF24" fill-opacity=".08" stroke="#FBBF24" stroke-opacity=".45"/><text x="677.5" y="459.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">Render</text>
 <rect x="718" y="442" width="65" height="26" rx="13.0" fill="#FBBF24" fill-opacity=".08" stroke="#FBBF24" stroke-opacity=".45"/><text x="750.5" y="459.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">Stripe</text>
+<rect x="791" y="442" width="58" height="26" rx="13.0" fill="#FBBF24" fill-opacity=".08" stroke="#FBBF24" stroke-opacity=".45"/><text x="820.0" y="459.32" class="mono" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="middle">Caddy</text>
 <rect x="24" y="488" width="952" height="46" rx="10" fill="#111D30" stroke="#26364F"/>
 <rect x="24" y="500" width="3" height="22" rx="1.5" fill="#34D399"/>
 <text x="44" y="516" class="mono" font-size="11" font-weight="600" fill="#34D399" text-anchor="start" letter-spacing="1.2">OBSERVABILIDAD</text>

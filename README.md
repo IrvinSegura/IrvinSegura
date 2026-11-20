@@ -15,6 +15,7 @@ Soy desarrollador **Full Stack** con 3 años de experiencia. Construyo sistemas 
 
 **Lo que he construido:**
 
+- **Una plataforma de atención al cliente con IA** con Spring Boot, React y Claude: cada empresa sube su base de conocimiento y el asistente responde por widget web, WhatsApp, correo, Messenger e Instagram citando sus fuentes, o dice "no sé" sin llamar al modelo cuando no las tiene. Pasa la conversación a una persona en vivo, ejecuta acciones en los sistemas del negocio con confirmación del cliente y cobra por consumo con Stripe. Es multi-tenant con Row-Level Security en PostgreSQL, búsqueda híbrida con pgvector y más de 700 pruebas.
 - **Un punto de venta** con Spring Boot y React donde el stock nunca queda negativo, aunque dos cajeros vendan la última unidad a la vez, y un doble clic nunca cobra dos veces. Tiene 49 clases de prueba contra PostgreSQL real y se despliega solo cuando el CI pasa.
 - **Una billetera digital** con Spring Boot y React donde cada centavo pasa por un libro mayor de partida doble: depósitos con Stripe, retiros por SPEI, transferencias que un reintento nunca duplica, doble factor y un chat de soporte con bot que escala a una persona. Es un monolito modular cuyos límites verifican Spring Modulith y ArchUnit, con métricas y trazas en Prometheus y Grafana.
 -  **Un Kanban en tiempo real** con ASP.NET Core, SignalR y Clean Architecture: chat con notas de voz, notificaciones y un outbox transaccional que entrega cada evento una sola vez, aunque corran varias instancias.
@@ -26,6 +27,28 @@ Trabajo con **Java + Spring Boot**, **C# + ASP.NET Core**, **PHP + Laravel** y *
 ## Proyectos
 
 Cada tarjeta muestra cómo está construido el proyecto por dentro.
+
+<a href="https://github.com/IrvinSegura/PlataformaAtencionClientes">
+  <img src="assets/project-support.svg" width="100%" alt="Plataforma de Atención al Cliente con IA: panel en React 19 y widget embebible de 10 KB, API REST en Java 25 con Spring Boot 4 como monolito modular con RAG y Claude, base de datos PostgreSQL con pgvector, todo en Docker; búsqueda híbrida con citas, traspaso a humano, cinco canales, Row-Level Security, cobro por consumo con Stripe y más de 700 pruebas" />
+</a>
+<p align="center"><a href="https://github.com/IrvinSegura/PlataformaAtencionClientes"><b>Ver repositorio · Spring Boot + React + Claude</b></a></p>
+
+<details>
+<summary><b>Ver capturas de la plataforma (8)</b></summary>
+<br>
+
+| | |
+| --- | --- |
+| ![Widget respondiendo con la cita a su fuente](https://raw.githubusercontent.com/IrvinSegura/PlataformaAtencionClientes/main/docs/images/widget-answer.png) | ![El widget dice que no tiene información y ofrece una persona](https://raw.githubusercontent.com/IrvinSegura/PlataformaAtencionClientes/main/docs/images/widget-no-answer.png) |
+| Respuesta con su fuente | Dice "no sé" en lugar de inventar |
+| ![Bandeja de conversaciones: un agente tomó la conversación tras el traspaso](https://raw.githubusercontent.com/IrvinSegura/PlataformaAtencionClientes/main/docs/images/conversation-detail.png) | ![Playground con los fragmentos recuperados, modelo, tokens y costo](https://raw.githubusercontent.com/IrvinSegura/PlataformaAtencionClientes/main/docs/images/playground.png) |
+| Bandeja en vivo y traspaso a humano | Playground |
+| ![Base de conocimiento con la etapa de indexado de cada documento](https://raw.githubusercontent.com/IrvinSegura/PlataformaAtencionClientes/main/docs/images/knowledge.png) | ![Preguntas sin respuesta agrupadas](https://raw.githubusercontent.com/IrvinSegura/PlataformaAtencionClientes/main/docs/images/gaps.png) |
+| Base de conocimiento | Preguntas sin respuesta |
+| ![Conversaciones resueltas, traspasos y satisfacción por día](https://raw.githubusercontent.com/IrvinSegura/PlataformaAtencionClientes/main/docs/images/outcomes.png) | ![Panel en modo oscuro](https://raw.githubusercontent.com/IrvinSegura/PlataformaAtencionClientes/main/docs/images/dark-mode.png) |
+| Resultados | Modo oscuro |
+
+</details>
 
 <a href="https://github.com/IrvinSegura/Sistema-de-Inventario-y-Facturacion_Back">
   <img src="assets/project-pos.svg" width="100%" alt="Sistema de Inventario y Facturación: cliente web en React y TypeScript, API REST en Java 21 con Spring Boot y JWT, base de datos PostgreSQL, todo en Docker; stock seguro ante concurrencia, cobros idempotentes, refresh tokens rotativos, 49 clases de prueba y CI/CD" />
@@ -143,7 +166,7 @@ Cada tarjeta muestra cómo está construido el proyecto por dentro.
 
 ## Stack
 
-<img src="assets/stack.svg" width="100%" alt="Frontend: React, TypeScript, Vite, Next.js, Tailwind CSS, shadcn/ui, TanStack Query, React Hook Form, Zod, Recharts, Chart.js, Livewire, Alpine.js, Bootstrap. Backend: Java 21 / 25, Spring Boot, Spring Security, Spring Modulith, C#, ASP.NET Core, SignalR, PHP, Laravel, Python, Flask. Datos: PostgreSQL, MySQL, SQLite, Redis, JPA / Hibernate, EF Core, SQLAlchemy, Flyway, Alembic. Calidad: Testcontainers, JUnit, ArchUnit, xUnit, NetArchTest, PHPUnit, Vitest, pytest, Playwright, GitHub Actions. Infraestructura y seguridad: Docker, Git, JWT, OAuth 2.0, APIs REST, OpenAPI, Render, Stripe. Observabilidad: Prometheus, Grafana, OpenTelemetry, Sentry, Serilog" />
+<img src="assets/stack.svg" width="100%" alt="Frontend: React, TypeScript, Vite, Next.js, Tailwind CSS, shadcn/ui, TanStack Query, React Hook Form, Zod, Recharts, Chart.js, Livewire, Alpine.js, Bootstrap. Backend: Java 21 / 25, Spring Boot, Spring Security, Spring Modulith, Claude API, C#, ASP.NET Core, SignalR, PHP, Laravel, Python, Flask. Datos: PostgreSQL, MySQL, SQLite, Redis, JPA / Hibernate, EF Core, SQLAlchemy, Flyway, Alembic, pgvector. Calidad: Testcontainers, JUnit, ArchUnit, xUnit, NetArchTest, PHPUnit, Vitest, pytest, Playwright, GitHub Actions, k6. Infraestructura y seguridad: Docker, Git, JWT, OAuth 2.0, APIs REST, OpenAPI, Render, Stripe, Caddy. Observabilidad: Prometheus, Grafana, OpenTelemetry, Sentry, Serilog" />
 
 ## Contacto
 
