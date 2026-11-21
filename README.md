@@ -123,12 +123,12 @@ Cada tarjeta muestra cómo está construido el proyecto por dentro.
 </details>
 
 <a href="https://github.com/IrvinSegura/IRSO-BLOG">
-  <img src="assets/project-blog.svg" width="100%" alt="IRSO-BLOG: login con Google, Microsoft o Facebook hacia Laravel 13 con Jetstream, que da acceso según el rol: administrador, editor o usuario" />
+  <img src="assets/project-blog.svg" width="100%" alt="IRSO-BLOG: blog con búsqueda, reacciones con emoji, guardados y reportes moderados; login con Google, Microsoft o Facebook hacia Laravel 13 con Jetstream, que da acceso según el rol: administrador, editor o usuario" />
 </a>
 <p align="center"><a href="https://github.com/IrvinSegura/IRSO-BLOG"><b>Ver repositorio · Laravel + Livewire</b></a></p>
 
 <details>
-<summary><b>Ver capturas del blog (8)</b></summary>
+<summary><b>Ver capturas del blog (10)</b></summary>
 <br>
 
 | | |
@@ -141,6 +141,8 @@ Cada tarjeta muestra cómo está construido el proyecto por dentro.
 | Crear publicación (vista previa en vivo) | Roles |
 | ![Página 403 para un editor sin permiso](https://raw.githubusercontent.com/IrvinSegura/IRSO-BLOG/main/docs/screenshots/editor-403.png) | ![Blog en tema oscuro](https://raw.githubusercontent.com/IrvinSegura/IRSO-BLOG/main/docs/screenshots/blog-oscuro.png) |
 | Permisos validados en el servidor | Tema oscuro |
+| ![Página de una publicación con reacciones y comentarios](https://raw.githubusercontent.com/IrvinSegura/IRSO-BLOG/main/docs/screenshots/blog-publicacion.png) | ![Cola de moderación de reportes](https://raw.githubusercontent.com/IrvinSegura/IRSO-BLOG/main/docs/screenshots/admin-reportes.png) |
+| Publicación con reacciones | Moderación de reportes |
 
 </details>
 
