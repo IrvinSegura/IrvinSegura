@@ -152,7 +152,7 @@ Cada tarjeta muestra cómo está construido el proyecto por dentro.
 <p align="center"><a href="https://github.com/IrvinSegura/Registros-de-Creditos"><b>Ver repositorio · Python + Flask</b></a></p>
 
 <details>
-<summary><b>Ver capturas de créditos (6)</b></summary>
+<summary><b>Ver capturas de créditos (8)</b></summary>
 <br>
 
 | | |
@@ -163,6 +163,8 @@ Cada tarjeta muestra cómo está construido el proyecto por dentro.
 | Créditos | Pagos de un crédito |
 | ![Administración de usuarios](https://raw.githubusercontent.com/IrvinSegura/Registros-de-Creditos/main/docs/screenshots/users.png) | <img src="https://raw.githubusercontent.com/IrvinSegura/Registros-de-Creditos/main/docs/screenshots/mobile.png" alt="Listado en el teléfono" width="260"> |
 | Usuarios | Móvil (tema oscuro) |
+| ![Estado de cuenta en PDF con la tabla de amortización y los pagos registrados](https://raw.githubusercontent.com/IrvinSegura/Registros-de-Creditos/main/docs/screenshots/report-statement-pdf.png) | ![Cartera exportada a Excel con totales y filtros](https://raw.githubusercontent.com/IrvinSegura/Registros-de-Creditos/main/docs/screenshots/report-portfolio-xlsx.png) |
+| Estado de cuenta en PDF | Cartera en Excel |
 
 </details>
 
