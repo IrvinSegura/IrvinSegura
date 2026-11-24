@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero.svg" width="100%" alt="Irvin Segura Ortiz, desarrollador full stack: Java y Spring Boot, C# y .NET, PHP y Laravel, Python y Flask, React y TypeScript" />
+  <img src="assets/hero.svg" width="100%" alt="Irvin Segura Ortiz, desarrollador full stack: Java y Spring Boot, C# y .NET, PHP y Laravel, Python y Flask, React y TypeScript, Kotlin y Android" />
 </p>
 
 <p align="center">
@@ -20,10 +20,11 @@ Soy desarrollador **Full Stack** con 3 años de experiencia. Construyo sistemas 
 - **Un punto de venta** con Spring Boot y React donde el stock nunca queda negativo, aunque dos cajeros vendan la última unidad a la vez, y un doble clic nunca cobra dos veces. Tiene 49 clases de prueba contra PostgreSQL real y se despliega solo cuando el CI pasa.
 - **Una billetera digital** con Spring Boot y React donde cada centavo pasa por un libro mayor de partida doble: depósitos con Stripe, retiros por SPEI, transferencias que un reintento nunca duplica, doble factor y un chat de soporte con bot que escala a una persona. Es un monolito modular cuyos límites verifican Spring Modulith y ArchUnit, con métricas y trazas en Prometheus y Grafana.
 -  **Un Kanban en tiempo real** con ASP.NET Core, SignalR y Clean Architecture: chat con notas de voz, notificaciones y un outbox transaccional que entrega cada evento una sola vez, aunque corran varias instancias.
+- **Una red social para Android** con Kotlin y Jetpack Compose: feed que funciona sin conexión, historias con música, círculos privados cuyo acceso validan las reglas del servidor y mensajes directos solo entre miembros. Multi-módulo con Clean Architecture y MVI, Room como única fuente de verdad, Firebase y Supabase.
 - **Un blog** con Laravel y permisos por rol que se validan en el servidor, con inicio de sesión con Google, Microsoft o Facebook.
 - **Un sistema de créditos** con Python y Flask: tabla de amortización, control de atrasos y reportes en Excel y PDF, con seguridad lista para producción (CSRF, CSP y bloqueo por intentos), más del 90 % de cobertura de pruebas y pruebas en el navegador con Playwright.
 
-Trabajo con **Java + Spring Boot**, **C# + ASP.NET Core**, **PHP + Laravel** y **Python + Flask** en el backend, y con **React + TypeScript** en el frontend.
+Trabajo con **Java + Spring Boot**, **C# + ASP.NET Core**, **PHP + Laravel** y **Python + Flask** en el backend, con **React + TypeScript** en el frontend y con **Kotlin + Jetpack Compose** en móvil.
 
 ## Proyectos
 
@@ -179,7 +180,7 @@ Más proyectos, sin tarjeta para no alargar el perfil. Cada repositorio tiene su
 
 ## Stack
 
-<img src="assets/stack.svg" width="100%" alt="Frontend: React, TypeScript, Vite, Next.js, Tailwind CSS, shadcn/ui, TanStack Query, React Hook Form, Zod, Recharts, Chart.js, Livewire, Alpine.js, Bootstrap. Backend: Java 21 / 25, Spring Boot, Spring Security, Spring Modulith, Claude API, C#, ASP.NET Core, SignalR, PHP, Laravel, Python, Flask. Datos: PostgreSQL, MySQL, SQLite, Redis, JPA / Hibernate, EF Core, SQLAlchemy, Flyway, Alembic, pgvector. Calidad: Testcontainers, JUnit, ArchUnit, xUnit, NetArchTest, PHPUnit, Vitest, pytest, Playwright, GitHub Actions, k6. Infraestructura y seguridad: Docker, Git, JWT, OAuth 2.0, APIs REST, OpenAPI, Render, Stripe, Caddy. Observabilidad: Prometheus, Grafana, OpenTelemetry, Sentry, Serilog" />
+<img src="assets/stack.svg" width="100%" alt="Frontend: React, TypeScript, Vite, Next.js, Tailwind CSS, shadcn/ui, TanStack Query, React Hook Form, Zod, Recharts, Chart.js, Livewire, Alpine.js, Bootstrap. Backend: Java 21 / 25, Spring Boot, Spring Security, Spring Modulith, Claude API, C#, ASP.NET Core, SignalR, PHP, Laravel, Python, Flask. Móvil: Kotlin, Jetpack Compose, Android, Hilt, Room, Paging 3, Media3, Firebase, Supabase. Datos: PostgreSQL, MySQL, SQLite, Redis, JPA / Hibernate, EF Core, SQLAlchemy, Flyway, Alembic, pgvector. Calidad: Testcontainers, JUnit, ArchUnit, xUnit, NetArchTest, PHPUnit, Vitest, pytest, Playwright, GitHub Actions, k6. Infraestructura y seguridad: Docker, Git, JWT, OAuth 2.0, APIs REST, OpenAPI, Render, Stripe, Caddy. Observabilidad: Prometheus, Grafana, OpenTelemetry, Sentry, Serilog" />
 
 ## Contacto
 
