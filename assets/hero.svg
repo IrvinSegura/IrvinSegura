@@ -31,8 +31,8 @@
 <rect x="298" y="266" width="149" height="30" rx="15.0" fill="#38BDF8" fill-opacity=".08" stroke="#38BDF8" stroke-opacity=".45"/><text x="372.5" y="285.68" class="mono" font-size="13" font-weight="500" fill="#E6EDF3" text-anchor="middle">Kotlin · Android</text>
 <rect x="680" y="36" width="272" height="58" rx="10" fill="#111D30" stroke="#26364F"/>
 <rect x="680" y="48" width="3" height="34" rx="1.5" fill="#38BDF8"/>
-<text x="698" y="57" class="mono" font-size="11" font-weight="600" fill="#38BDF8" text-anchor="start" letter-spacing="1.2">CLIENTE</text>
-<text x="698" y="79" class="sans" font-size="15" font-weight="600" fill="#E6EDF3" text-anchor="start">React · TypeScript · Tailwind</text>
+<text x="698" y="57" class="mono" font-size="11" font-weight="600" fill="#38BDF8" text-anchor="start" letter-spacing="1.2">CLIENTE · WEB Y MÓVIL</text>
+<text x="698" y="79" class="sans" font-size="15" font-weight="600" fill="#E6EDF3" text-anchor="start">React · TypeScript · Kotlin</text>
 <rect x="680" y="131" width="272" height="58" rx="10" fill="#111D30" stroke="#26364F"/>
 <rect x="680" y="143" width="3" height="34" rx="1.5" fill="#60A5FA"/>
 <text x="698" y="152" class="mono" font-size="11" font-weight="600" fill="#60A5FA" text-anchor="start" letter-spacing="1.2">API</text>
