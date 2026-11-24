@@ -185,14 +185,14 @@ Más proyectos, sin tarjeta para no alargar el perfil. Cada repositorio tiene su
     <tr>
       <td>
         <a href="https://github.com/IrvinSegura/ISO-social"><b>Nexus</b></a><br>
-        <sub>📱 App Android</sub>
+        <sub><code>APP ANDROID</code></sub>
       </td>
       <td>Red social con feed offline, historias con música, círculos privados con código de invitación y mensajes directos entre miembros. Multi-módulo con Clean Architecture y MVI.</td>
       <td>
-        <img src="https://img.shields.io/badge/Kotlin-0B1220?style=flat-square&logo=kotlin&logoColor=38BDF8" alt="Kotlin">
-        <img src="https://img.shields.io/badge/Jetpack%20Compose-0B1220?style=flat-square&logo=jetpackcompose&logoColor=38BDF8" alt="Jetpack Compose">
-        <img src="https://img.shields.io/badge/Firebase-0B1220?style=flat-square&logo=firebase&logoColor=38BDF8" alt="Firebase">
-        <img src="https://img.shields.io/badge/Supabase-0B1220?style=flat-square&logo=supabase&logoColor=38BDF8" alt="Supabase">
+        <img src="https://img.shields.io/badge/Kotlin-1E2B3F?style=flat-square&logo=kotlin&logoColor=38BDF8" alt="Kotlin">
+        <img src="https://img.shields.io/badge/Jetpack%20Compose-1E2B3F?style=flat-square&logo=jetpackcompose&logoColor=38BDF8" alt="Jetpack Compose">
+        <img src="https://img.shields.io/badge/Firebase-1E2B3F?style=flat-square&logo=firebase&logoColor=38BDF8" alt="Firebase">
+        <img src="https://img.shields.io/badge/Supabase-1E2B3F?style=flat-square&logo=supabase&logoColor=38BDF8" alt="Supabase">
       </td>
     </tr>
   </tbody>
