@@ -172,7 +172,7 @@ Cada tarjeta muestra cómo está construido el proyecto por dentro.
 
 ## Otros proyectos
 
-Más proyectos, sin tarjeta para no alargar el perfil. Cada repositorio tiene su código, capturas y cómo ejecutarlo.
+Más proyectos: cada repositorio tiene su código, capturas y cómo ejecutarlo.
 
 <!-- Para agregar un proyecto: súmalo a PROJECTS en scripts/build_other_projects.py, ejecútalo y pega aquí la línea que imprime. -->
 <img src="assets/other-projects-header.svg" width="100%" alt="Otros proyectos" />
