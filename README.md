@@ -5,6 +5,7 @@
 <p align="center">
   <a href="#sobre-mí"><b>Sobre mí</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#proyectos"><b>Proyectos</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="#otros-proyectos"><b>Otros proyectos</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#stack"><b>Stack</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#contacto"><b>Contacto</b></a>
 </p>
@@ -167,6 +168,13 @@ Cada tarjeta muestra cómo está construido el proyecto por dentro.
 | Estado de cuenta en PDF | Cartera en Excel |
 
 </details>
+
+## Otros proyectos
+
+Más proyectos con su código, capturas y cómo ejecutarlos en cada repositorio.
+
+- **[Nexus](https://github.com/IrvinSegura/ISO-social)** · Kotlin + Jetpack Compose<br>
+  Red social para Android con feed offline, historias con música, círculos privados con código de invitación y mensajes directos entre miembros. Multi-módulo con Clean Architecture y MVI, Firebase y Supabase.
 
 ## Stack
 
