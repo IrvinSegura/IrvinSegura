@@ -175,7 +175,7 @@ Más proyectos, sin tarjeta para no alargar el perfil. Cada repositorio tiene su
 
 <!-- Para agregar un proyecto: súmalo a PROJECTS en scripts/build_other_projects.py, ejecútalo y pega aquí la línea que imprime. -->
 <img src="assets/other-projects-header.svg" width="100%" alt="Otros proyectos" />
-<a href="https://github.com/IrvinSegura/ISO-social"><img src="assets/other-nexus.svg" width="100%" alt="Nexus: App Android. Red social con feed offline, historias con música, círculos privados con código de invitación y mensajes directos entre miembros. Multi-módulo con Clean Architecture y MVI." /></a>
+<a href="https://github.com/IrvinSegura/Nexus"><img src="assets/other-nexus.svg" width="100%" alt="Nexus: App Android. Red social con feed offline, historias con música, círculos privados con código de invitación y mensajes directos entre miembros. Multi-módulo con Clean Architecture y MVI." /></a>
 
 ## Stack
 

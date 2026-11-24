@@ -10,7 +10,7 @@ from xml.sax.saxutils import escape
 PROJECTS = [
     {
         "file": "other-nexus.svg",
-        "repo": "https://github.com/IrvinSegura/ISO-social",
+        "repo": "https://github.com/IrvinSegura/Nexus",
         "name": "Nexus",
         "kind": "App Android",
         "description": "Red social con feed offline, historias con música, círculos privados "
