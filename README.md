@@ -171,10 +171,32 @@ Cada tarjeta muestra cómo está construido el proyecto por dentro.
 
 ## Otros proyectos
 
-Más proyectos con su código, capturas y cómo ejecutarlos en cada repositorio.
+Más proyectos, sin tarjeta para no alargar el perfil. Cada repositorio tiene su código, capturas y cómo ejecutarlo.
 
-- **[Nexus](https://github.com/IrvinSegura/ISO-social)** · Kotlin + Jetpack Compose<br>
-  Red social para Android con feed offline, historias con música, círculos privados con código de invitación y mensajes directos entre miembros. Multi-módulo con Clean Architecture y MVI, Firebase y Supabase.
+<table>
+  <thead>
+    <tr>
+      <th align="left" width="22%">Proyecto</th>
+      <th align="left">Qué hace</th>
+      <th align="left" width="26%">Tecnologías</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <a href="https://github.com/IrvinSegura/ISO-social"><b>Nexus</b></a><br>
+        <sub>📱 App Android</sub>
+      </td>
+      <td>Red social con feed offline, historias con música, círculos privados con código de invitación y mensajes directos entre miembros. Multi-módulo con Clean Architecture y MVI.</td>
+      <td>
+        <img src="https://img.shields.io/badge/Kotlin-0B1220?style=flat-square&logo=kotlin&logoColor=38BDF8" alt="Kotlin">
+        <img src="https://img.shields.io/badge/Jetpack%20Compose-0B1220?style=flat-square&logo=jetpackcompose&logoColor=38BDF8" alt="Jetpack Compose">
+        <img src="https://img.shields.io/badge/Firebase-0B1220?style=flat-square&logo=firebase&logoColor=38BDF8" alt="Firebase">
+        <img src="https://img.shields.io/badge/Supabase-0B1220?style=flat-square&logo=supabase&logoColor=38BDF8" alt="Supabase">
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## Stack
 
