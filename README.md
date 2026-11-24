@@ -173,30 +173,9 @@ Cada tarjeta muestra cómo está construido el proyecto por dentro.
 
 Más proyectos, sin tarjeta para no alargar el perfil. Cada repositorio tiene su código, capturas y cómo ejecutarlo.
 
-<table>
-  <thead>
-    <tr>
-      <th align="left" width="22%">Proyecto</th>
-      <th align="left">Qué hace</th>
-      <th align="left" width="26%">Tecnologías</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <a href="https://github.com/IrvinSegura/ISO-social"><b>Nexus</b></a><br>
-        <sub><code>APP ANDROID</code></sub>
-      </td>
-      <td>Red social con feed offline, historias con música, círculos privados con código de invitación y mensajes directos entre miembros. Multi-módulo con Clean Architecture y MVI.</td>
-      <td>
-        <img src="https://img.shields.io/badge/Kotlin-1E2B3F?style=flat-square&logo=kotlin&logoColor=38BDF8" alt="Kotlin">
-        <img src="https://img.shields.io/badge/Jetpack%20Compose-1E2B3F?style=flat-square&logo=jetpackcompose&logoColor=38BDF8" alt="Jetpack Compose">
-        <img src="https://img.shields.io/badge/Firebase-1E2B3F?style=flat-square&logo=firebase&logoColor=38BDF8" alt="Firebase">
-        <img src="https://img.shields.io/badge/Supabase-1E2B3F?style=flat-square&logo=supabase&logoColor=38BDF8" alt="Supabase">
-      </td>
-    </tr>
-  </tbody>
-</table>
+<!-- Para agregar un proyecto: súmalo a PROJECTS en scripts/build_other_projects.py, ejecútalo y pega aquí la línea que imprime. -->
+<img src="assets/other-projects-header.svg" width="100%" alt="Otros proyectos" />
+<a href="https://github.com/IrvinSegura/ISO-social"><img src="assets/other-nexus.svg" width="100%" alt="Nexus: App Android. Red social con feed offline, historias con música, círculos privados con código de invitación y mensajes directos entre miembros. Multi-módulo con Clean Architecture y MVI." /></a>
 
 ## Stack
 
